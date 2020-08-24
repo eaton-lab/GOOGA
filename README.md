@@ -8,26 +8,22 @@ The code runs in python and was developed for python2.7 and requires the scipy p
 
 To run on the test data, first download this repo.  Then you need to extract the test data:
 
-` gunzip data/LVR.cross.tar.gz` 
-
-` tar xf data/LVR.cross.tar` 
+```bash
+gunzip data/LVR.cross.tar.gz
+tar xf data/LVR.cross.tar
+```
 
 This gives several files, including the genotype files (e.g. g.F2.163.txt), which look like:
 
-`head g.F2.163.txt`
-
-`F2.163	1	0	AB`
-
-`F2.163	1	100000	AB`
-
-`F2.163	1	200000	AB`
-
-`F2.163	1	300000	AB`
-
-`F2.163	1	400000	AB`
-
-`F2.163	1	500000	AB`
-
+```bash
+head g.F2.163.txt
+F2.163	1	0	AB
+F2.163	1	100000	AB
+F2.163	1	200000	AB
+F2.163	1	300000	AB
+F2.163	1	400000	AB
+F2.163	1	500000	AB
+```
 
 where the 4 columns are line_name, chromosome, interval, genotype (AA, AB, BB, or NN for missing/unknown)
 
