@@ -31,7 +31,9 @@ Also the test data contains a list of all segregating lines you wish to consider
 
 Finally, the genetic algorithm code is called `parallel.genet.alg.final.py`. It was written to be run on a multiprocessor system and can make use of parallelism.  It takes several flags at runtime.  To get help on these flags simply run:
 
-`python2 parallel.genet.alg.final.py --help`
+```bash
+
+python2 parallel.genet.alg.final.py --help
 
 Usage: parallel.genet.alg.final.py marker_file [options]
 
@@ -61,7 +63,7 @@ Options:
   
   -r                    Use -r flag if your mapping pop is RILs - default is
                         F2 seg. pop
-
+```
 
 NCPU should be set according to your computer.  The code was developed for a 16 core machine, hence the default setting.    
 
